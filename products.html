@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книги | BookHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BookHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="products.html" class="active">Книги</a></li>
+                    <li><a href="cart.html">Кошик <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="container">
+                <h2>Наші книги</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://uaserial.com/images/serials/64/641860c9670ca836021169.webp" alt="Книга 1">
+                        <h3>Хоббіт</h3>
+                        <p>Дж. Р. Р. Толкін</p>
+                        <p class="price">250 грн</p>
+                        <button class="btn add-to-cart" data-id="1" data-name="Хоббіт" data-price="250">Купити</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/uk/thumb/c/c5/%D0%93%D0%9F%D0%A4%D0%9A%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg/250px-%D0%93%D0%9F%D0%A4%D0%9A%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg" alt="Книга 2">
+                        <h3>Гаррі Поттер і філософський камінь</h3>
+                        <p>Дж. К. Роулінг</p>
+                        <p class="price">300 грн</p>
+                        <button class="btn add-to-cart" data-id="2" data-name="Гаррі Поттер і філософський камінь" data-price="300">Купити</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-idhj7siiUTprzALuH0ArHGLlmMEQ_-O0Q&s" alt="Книга 3">
+                        <h3>1984</h3>
+                        <p>Джордж Орвелл</p>
+                        <p class="price">200 грн</p>
+                        <button class="btn add-to-cart" data-id="3" data-name="1984" data-price="200">Купити</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx55WI1PxQasUQH8kfp5ga0kNnvrFAoD80A&s" alt="Книга 4">
+                        <h3>Маленький принц</h3>
+                        <p>Антуан де Сент-Екзюпері</p>
+                        <p class="price">180 грн</p>
+                        <button class="btn add-to-cart" data-id="4" data-name="Маленький принц" data-price="180">Купити</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://ksd.ua/storage/products/gallery/medium/ot75R4oKrf7TITcIoFJyfc9WQyX6NHBaIfaRXTsQ.jpg.webp?v=1733323826" alt="Книга 5">
+                        <h3>Відьмак. Останнє бажання</h3>
+                        <p>Анджей Сапковський</p>
+                        <p class="price">280 грн</p>
+                        <button class="btn add-to-cart" data-id="5" data-name="Відьмак. Останнє бажання" data-price="280">Купити</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://nashformat.ua/files/products/929760.800x800.jpg" alt="Книга 6">
+                        <h3>Тіні забутих предків</h3>
+                        <p>Михайло Коцюбинський</p>
+                        <p class="price">220 грн</p>
+                        <button class="btn add-to-cart" data-id="6" data-name="Тіні забутих предків" data-price="220">Купити</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BookHub. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

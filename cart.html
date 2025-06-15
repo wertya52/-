@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик | BookHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BookHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="products.html">Книги</a></li>
+                    <li><a href="cart.html" class="active">Кошик <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <div class="container">
+                <h2>Ваш кошик</h2>
+                <div class="cart-items" id="cart-items">
+                    <!-- Тут будуть відображатися товари -->
+                    <p class="empty-cart">Ваш кошик порожній</p>
+                </div>
+                <div class="cart-total">
+                    <p>Загальна сума: <span id="total-price">0</span> грн</p>
+                    <button class="btn checkout-btn" id="checkout-btn">Оформити замовлення</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BookHub. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
